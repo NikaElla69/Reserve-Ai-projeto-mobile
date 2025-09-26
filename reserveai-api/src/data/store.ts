@@ -1,4 +1,4 @@
-import type { User, Restaurant, Reservation } from '../types';
+import type { User, Restaurant, Reservation } from '../types/index.js'; // Alterado de '../types'
 
 let uid = 2;
 let rid = 2;
