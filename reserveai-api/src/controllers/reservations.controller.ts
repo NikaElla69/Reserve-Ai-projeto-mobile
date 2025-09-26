@@ -1,6 +1,6 @@
-import { reservations, users, restaurants, nextId } from '../data/store';
+import { reservations, users, restaurants, nextId } from '../data/store.js'; // Alterado de '../data/store'
 import type { Request, Response } from 'express';
-import { sendMail } from '../utils/mailer';
+import { sendMail } from '../utils/mailer.js'; // Alterado de '../utils/mailer'
 
 export const listMyReservations = (req: Request, res: Response) => {
   const user = (req as any).user;

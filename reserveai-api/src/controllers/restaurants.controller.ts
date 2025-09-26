@@ -1,4 +1,4 @@
-import { restaurants } from '../data/store';
+import { restaurants } from '../data/store.js'; // Alterado de '../data/store'
 import type { Request, Response } from 'express';
 
 export const listRestaurants = (_req: Request, res: Response) => {

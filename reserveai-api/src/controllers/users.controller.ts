@@ -1,4 +1,4 @@
-import { users } from '../data/store';
+import { users } from '../data/store.js'; // Alterado de '../data/store'
 import type { Request, Response } from 'express';
 
 export const me = (req: Request, res: Response) => {
